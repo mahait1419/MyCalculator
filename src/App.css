@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:lightpink;
 }
 
 .App-link {
@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+.button {
+  display:contents;
+  background-color: rgb(31, 98, 223);
+}
+
+button {
+  width: 20%;
+  height: 90px;
+  font-size: 30px;
+}
+.calc-body {
+  max-width: 800px;
+  margin:auto;
+}
+
+.result {
+  height: 60px;
+  width: 80%;
+  background-color:lightgray;
+
+}
+.result p {
+  font-size: 40px;
+  margin: 5px;
+}
+
