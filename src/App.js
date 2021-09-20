@@ -38,7 +38,8 @@ class App extends Component {
 
     try {
       this.setState({
-        // eslint-disable-next-line 
+
+        // eslint-disable-next-line no-alert
         result: (eval(checkRes) || "") + ""
       })
     } catch (e) {
