@@ -38,6 +38,7 @@ class App extends Component {
 
     try {
       this.setState({
+        // eslint-disable-next-line 
         result: (eval(checkRes) || "") + ""
       })
     } catch (e) {
