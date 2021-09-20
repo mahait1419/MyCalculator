@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Keys from './Keys';
 import ResultCom from './ResultCom';
-
+/*eslint eqeqeq:0*/
 class App extends Component {
   constructor() {
     super();
